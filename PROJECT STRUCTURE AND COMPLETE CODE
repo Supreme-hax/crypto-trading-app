@@ -1,0 +1,45 @@
+/*
+crypto-trading-app/
+├── package.json
+├── vite.config.ts
+├── tsconfig.json
+├── tailwind.config.js
+├── postcss.config.js
+├── client/
+│   ├── src/
+│   │   ├── main.tsx
+│   │   ├── App.tsx
+│   │   ├── index.css
+│   │   ├── pages/
+│   │   │   ├── home.tsx
+│   │   │   └── not-found.tsx
+│   │   ├── components/
+│   │   │   ├── wallet-connection.tsx
+│   │   │   ├── portfolio-section.tsx
+│   │   │   ├── trading-section.tsx
+│   │   │   ├── features-section.tsx
+│   │   │   └── ui/
+│   │   │       ├── button.tsx
+│   │   │       ├── input.tsx
+│   │   │       ├── select.tsx
+│   │   │       ├── slider.tsx
+│   │   │       ├── toaster.tsx
+│   │   │       └── tooltip.tsx
+│   │   ├── hooks/
+│   │   │   ├── use-wallet.tsx
+│   │   │   ├── use-token-swap.tsx
+│   │   │   ├── use-token-balance.tsx
+│   │   │   ├── use-crypto-prices.tsx
+│   │   │   └── use-toast.tsx
+│   │   └── lib/
+│   │       ├── fee-config.ts
+│   │       ├── tokens.ts
+│   │       ├── queryClient.ts
+│   │       └── utils.ts
+│   └── public/
+│       └── index.html
+└── server/
+    ├── index.ts
+    ├── routes.ts
+    └── vite.ts
+*/
