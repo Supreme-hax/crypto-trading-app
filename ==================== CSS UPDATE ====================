@@ -1,0 +1,74 @@
+/* Add these additional styles to client/src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --background: 245 60% 12%;
+    --foreground: 0 0% 98%;
+    --card: 245 60% 12%;
+    --card-foreground: 0 0% 98%;
+    --popover: 245 60% 12%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 263 85% 65%;
+    --primary-foreground: 0 0% 98%;
+    --secondary: 245 20% 20%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 245 20% 20%;
+    --muted-foreground: 0 0% 70%;
+    --accent: 245 20% 25%;
+    --accent-foreground: 0 0% 98%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 245 20% 25%;
+    --input: 245 20% 25%;
+    --ring: 263 85% 65%;
+    --radius: 0.5rem;
+  }
+}
+
+body {
+  background: linear-gradient(135deg, #1e1b4b 0%, #312e81 25%, #3730a3 50%, #4338ca 75%, #4f46e5 100%);
+  min-height: 100vh;
+  color: hsl(var(--foreground));
+}
+
+.glassmorphism {
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+}
+
+.hover-lift {
+  transition: transform 0.2s ease-in-out;
+}
+
+.hover-lift:hover {
+  transform: translateY(-2px);
+}
+
+.buy-gradient {
+  background: linear-gradient(135deg, #10b981 0%, #059669 100%);
+}
+
+.sell-gradient {
+  background: linear-gradient(135deg, #ef4444 0%, #dc2626 100%);
+}
+
+.platform-uniswap {
+  background: linear-gradient(135deg, #FF007A 0%, #FF6B9D 100%);
+}
+
+.platform-jupiter {
+  background: linear-gradient(135deg, #9945FF 0%, #14F195 100%);
+}
+
+.platform-pancakeswap {
+  background: linear-gradient(135deg, #D67E35 0%, #F0B90B 100%);
+}
+
+.platform-raydium {
+  background: linear-gradient(135deg, #C200FB 0%, #3772FF 100%);
+}
